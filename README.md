@@ -21,7 +21,7 @@ Once the code is cloned, install the necessary node modules and run node index.j
 [Github Repo Link](https://github.com/chavue91/readme-generator)
 
 ## Application Preview
-!(https://drive.google.com/file/d/17lZXLAzpJ8f2CjczJAhhNBCCBFURr0CL/view?usp=sharing)
+![Demo Video](https://drive.google.com/file/d/17lZXLAzpJ8f2CjczJAhhNBCCBFURr0CL/view?usp=sharing)
 
 
 ![readme-generator](https://user-images.githubusercontent.com/95977865/155917870-9548a2fb-8611-4818-af13-b0f7a3791b35.PNG)
