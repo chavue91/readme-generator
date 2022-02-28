@@ -32,12 +32,33 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license !== 'MIT') {
+    return `## License
+    The license for this application is [${license}]`
+  } else if (license == 'No license') {
+    return ''
+  
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Installation
+  ${data.installation}
+
+  ## Usage
+  ${data.usage}
+  
+  ## Credits
+  ${data.credits}
+
+  ### License
+  ${data.license}
+
+  #### Github
+  ${data.github}
 `;
 }
 
