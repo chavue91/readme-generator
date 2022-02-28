@@ -56,7 +56,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-        .then((data) => writeToFile('README.md', generateMarkdown(data)))
+        .then((data) => writeToFile('GENERATEDREADME.md', generateMarkdown(data)))
         .then(() => console.log('README generated!'))
         .catch((err => console.log(err)))
         
