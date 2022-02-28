@@ -12,7 +12,7 @@ function renderLicenseBadge(license) {
   } else if (license == 'No license') {
     return ''
   }
-}
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -28,7 +28,7 @@ function renderLicenseLink(license) {
   } else if (license == 'No license') {
     return ''
   }
-}
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -38,9 +38,8 @@ function renderLicenseSection(license) {
     The license for this application is [${license}]`
   } else if (license == 'No license') {
     return ''
-  
-}
-
+  }
+};
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -56,6 +55,9 @@ function generateMarkdown(data) {
 
   ### License
   ${data.license}
+  ${renderLicenseBadge(data.license)}
+  ${renderLicenseLink(data.license)}
+  ${renderLicenseSection(license)}
 
   #### Github
   ${data.github}
