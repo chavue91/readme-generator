@@ -1,1 +1,20 @@
-"# kdjaf\n\n  ## Installation\n  ldkjaf\n\n  ## Usage\n  ldkjaf\n  \n  ## Credits\n  lkdjsaf\n\n  ### License\n  MIT\n  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)\n  ![License: MIT](https://opensource.org/licenses/MIT)\n  ## License\n    The license for this application is [MIT]\n\n  #### Github\n  kdjlafkjs\n"
+# lkdjasf
+
+  ## Installation
+  ldkajf
+
+  ## Usage
+  ldkajfsa
+  
+  ## Credits
+  ldkjafls
+
+  ### License
+  MIT
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ![License: MIT](https://opensource.org/licenses/MIT)
+  ## License
+    The license for this application is [MIT]
+
+  #### Github
+  lkdjaf
